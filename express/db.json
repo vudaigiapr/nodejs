@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "name 1",
+      "email": "thevu1991@gmail.com1",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "a",
+      "email": "thevu1991@gmail.com2",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "name": "a",
+      "email": "thevu1991@gmail.com3",
+      "password": "123456"
+    },
+    {
+      "id": 4,
+      "name": "",
+      "email": "thevu1991@gmail.com4",
+      "password": "123456"
+    },
+    {
+      "id": 5,
+      "name": "",
+      "email": "thevu1991@gmail.com5",
+      "password": "123456"
+    },
+    {
+      "id": 6,
+      "name": "demo",
+      "email": "thevu1991@gmail.com6",
+      "password": "123456"
+    }
+  ]
+}

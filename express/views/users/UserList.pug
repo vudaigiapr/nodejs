@@ -1,0 +1,10 @@
+extends ../layout/layout.pug
+
+block content
+  h1 LIST USER
+  ul
+    each user, index in listUsers
+      li
+        span= index +": name = " + user.name +' and  id = ' + user.id
+        a(href="/users/detail/" + user.id) View
+  a(href="http://localhost:3000/users/add") AddUser

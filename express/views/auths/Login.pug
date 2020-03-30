@@ -1,0 +1,29 @@
+extends ../layout/layout.pug
+
+block content
+    link(rel="stylesheet", href="/css/login.css")
+    #main
+        form(action="#" method="POST")
+            if errors
+                each error in errors
+                    .alert.alert-danger= error
+            div.label login form
+            div.username
+                input(type="text" placeholder="Email" name="email")
+            div.password
+                input(type="password" placeholder="password" name="password")
+            div.checkbox
+                input(type='checkbox' name='agreement' checked)
+                |Remember me
+            button(type="submit") Login
+            h3 or login with
+            div.social
+                a(href="#" )
+                    button(type="button")
+                        <i class="fa fa-facebook"></i>
+                a(href="/auth/loginGoogle")
+                    button(type="button" style="background:red")
+                        <i class="fa fa-google-plus"></i>
+            p
+                | not a member
+                a(href="#") Sing Up now
